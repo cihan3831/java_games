@@ -2,7 +2,7 @@ package at.cihan.games.firstgame;
 
 import org.newdawn.slick.Graphics;
 
-public class Rectangles2 {
+public class Rectangles2 implements Actor{
     private enum DIRECTION {RIGHT, DOWN, LEFT, UP};
     private float x;
     private float y;
