@@ -7,23 +7,23 @@ public class Rectangles2 implements Actor{
     private float x;
     private float y;
     private float speed;
+    private boolean moveRight;
 
-    public Rectangles2( int x, int y, float speed){
+    public Rectangles2(int x, int y, float speed, boolean moveRight) {
         this.x = x;
         this.y = y;
         this.speed = speed;
+        this.moveRight = moveRight;
     }
 
     public void render(Graphics graphics) {
-        graphics.drawRect(this.x,this.y,10,10);
-
+        graphics.drawRect(this.x, this.y, 10, 10);
     }
-
-
-    public void update (int delta) {
-        this.x += (float)delta/this.speed;
-        if(this.x>800){
-            this.x = 0;
+    public void update(int delta) {
+        if (moveRight) {
+            this.x += (float) delta / this.speed;
+        } else {
+            this.x -= (float) delta / this.speed;
         }
     }
 }
