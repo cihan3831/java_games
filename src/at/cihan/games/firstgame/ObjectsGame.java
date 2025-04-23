@@ -19,6 +19,10 @@ public class ObjectsGame extends BasicGame {
         this.actors = new ArrayList<>();
         Random random = new Random();
 
+        Rocket rocket = new Rocket();
+        this.actors.add(rocket);
+
+
         for (int i = 0; i < 10; i++) {
             boolean moveRight = true;
             Rectangles2 rectangle = new Rectangles2(
@@ -37,7 +41,10 @@ public class ObjectsGame extends BasicGame {
             );
             this.actors.add(ellipse);
         }
+
     }
+
+
 
     @Override
     public void update(GameContainer gameContainer, int delta) throws SlickException {
