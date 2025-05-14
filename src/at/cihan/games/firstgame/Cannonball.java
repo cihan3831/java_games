@@ -16,6 +16,7 @@ public class Cannonball implements Actor{
         graphics.fillOval(this.x,this.y,10,10);
     }
 
+
     @Override
     public void update(GameContainer gameContainer, int delta) {
         this.y--;

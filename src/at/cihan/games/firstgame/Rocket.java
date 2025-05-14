@@ -48,6 +48,7 @@ public class Rocket implements Actor{
         return y - 10;
     }
 
+
     public void setX(float x) {
         this.x = x;
     }
