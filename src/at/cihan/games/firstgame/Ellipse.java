@@ -13,7 +13,6 @@ public class Ellipse implements Actor{
         this.speed=5;
     }
 
-
     @Override
     public void render(Graphics graphics) {
         graphics.drawOval(this.x,this.y,50,10);

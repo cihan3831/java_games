@@ -17,7 +17,6 @@ public class Rectangles2 implements Actor{
         this.moveRight = moveRight;
     }
 
-
     public void render(Graphics graphics) {
         graphics.drawRect(this.x, this.y, 10, 10);
     }

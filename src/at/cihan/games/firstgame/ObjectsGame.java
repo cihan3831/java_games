@@ -76,7 +76,6 @@ public class ObjectsGame extends BasicGame {
         }
     }
 
-
     public static void main(String[] argv) {
         try {
 <<<<<<< HEAD

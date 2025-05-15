@@ -56,5 +56,9 @@ public class Rocket implements Actor{
     public void setY(float y) {
         this.y = y;
     }
+<<<<<<< HEAD
 >>>>>>> 0afba85 (done with 10_Tastaturevents)
 }
+=======
+}
+>>>>>>> c3c8503 (ran)

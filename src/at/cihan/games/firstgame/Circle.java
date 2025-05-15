@@ -21,7 +21,6 @@ public class Circle implements Actor{
         this.growing = 0.05f;
     }
 
-
     public void render(Graphics graphics) {
         graphics.drawOval(this.x,this.y,this.diameter,this.diameter);
         graphics.drawOval(x - radius, y - radius, radius * 2, radius * 2);

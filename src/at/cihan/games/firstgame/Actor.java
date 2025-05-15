@@ -1,4 +1,5 @@
 package at.cihan.games.firstgame;
+
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 
