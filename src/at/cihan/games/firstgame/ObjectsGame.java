@@ -46,7 +46,10 @@ public class ObjectsGame extends BasicGame {
     }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0afba85 (done with 10_Tastaturevents)
     @Override
     public void update(GameContainer gameContainer, int delta) throws SlickException {
         for (Actor actor : this.actors) {
@@ -65,12 +68,21 @@ public class ObjectsGame extends BasicGame {
     public void keyPressed(int key, char c) {
         if (key == Input.KEY_SPACE){
             System.out.println("shoot");
+<<<<<<< HEAD
+=======
+            Cannonball cb = new Cannonball(this.rocket.getX(), this.rocket.getY());
+            this.actors.add(cb);
+>>>>>>> 0afba85 (done with 10_Tastaturevents)
         }
     }
 
     public static void main(String[] argv) {
         try {
+<<<<<<< HEAD
             AppGameContainer container = new AppGameContainer(new ObjectsGame("07_Games"));
+=======
+            AppGameContainer container = new AppGameContainer(new ObjectsGame("10_Tastturevents"));
+>>>>>>> 0afba85 (done with 10_Tastaturevents)
             container.setDisplayMode(800, 600, false);
             container.start();
         } catch (SlickException e) {

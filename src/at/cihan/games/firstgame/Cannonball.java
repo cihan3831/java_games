@@ -19,6 +19,9 @@ public class Cannonball implements Actor{
     @Override
     public void update(GameContainer gameContainer, int delta) {
         this.y--;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0afba85 (done with 10_Tastaturevents)
     }
 }

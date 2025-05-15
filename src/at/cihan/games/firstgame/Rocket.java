@@ -8,7 +8,11 @@ public class Rocket implements Actor{
 
     public Rocket() throws SlickException {
         Image tmp = new Image("testdata/rocket.png");
+<<<<<<< HEAD
         this.rocketImage = tmp.getScaledCopy(50,50);
+=======
+        this.rocketImage = tmp.getScaledCopy(100,100);
+>>>>>>> 0afba85 (done with 10_Tastaturevents)
         this.x = 100;
         this.y = 100;
     }
@@ -33,4 +37,23 @@ public class Rocket implements Actor{
             this.y++;
         }
     }
+<<<<<<< HEAD
+=======
+
+    public float getX() {
+        return x + 50;
+    }
+
+    public float getY() {
+        return y - 10;
+    }
+
+    public void setX(float x) {
+        this.x = x;
+    }
+
+    public void setY(float y) {
+        this.y = y;
+    }
+>>>>>>> 0afba85 (done with 10_Tastaturevents)
 }
