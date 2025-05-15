@@ -1,8 +1,9 @@
-package at.cihan.games.UML;
+package at.cihan.games.UML.products;
 
-public class Phone implements Product{
+public class Phone implements Product {
     private int id;
     private String title;
+
 
     public Phone(int id, String title) {
         this.id = id;

@@ -1,11 +1,12 @@
-package at.cihan.games.UML;
+package at.cihan.games.UML.products;
 
 import java.awt.*;
 
-public class Shoe implements Product{
+public class Shoe implements Product {
     private Color color;
     private int id;
     private String title;
+
 
     public Shoe(Color color, int id, String title) {
         this.color = color;

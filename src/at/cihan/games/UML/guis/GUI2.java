@@ -1,6 +1,8 @@
-package at.cihan.games.UML;
+package at.cihan.games.UML.guis;
 
-/*public class GUI2 implements GUI2{
+import at.cihan.games.UML.products.Product;
+
+public class GUI2 implements GUI {
     @Override
     public void start(){
         System.out.println("i am gui2");
@@ -8,10 +10,8 @@ package at.cihan.games.UML;
 
     @Override
     public void addProduct(Product product){
-
-
     }
 }
 
 
- */
+
